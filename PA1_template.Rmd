@@ -15,6 +15,7 @@ output:
 
 ```{r loadthedata}
 #Load the data 
+unzip("activity.zip")
 data <- read.csv("activity.csv")
 
 #Process/transform the data (if necessary) into a format suitable for your analysis
